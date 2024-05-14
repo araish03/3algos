@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Radix Sort</title>
+<link rel="stylesheet" href="../../assets/css/common-styles-responsive.css">
+    <link rel="stylesheet" href="css/radix.css">
+  </head>
+  <body>
+   
+    
+    <div class="wrapper" style="  background-image: url('../images/bubble\ sort\ \(4\).png'); height: 100vh; "  >
+        <div id="canvas_wrapper">
+            <canvas id="canvas" width="190" height="761"></canvas>
+        </div>
+        
+        <div id="legend-comment-wrapper">
+          <ul class="legend">
+        
+          </ul>
+          
+          <div class="comment-box">
+            <b  >Observations:&nbsp; <br> </b>
+            <p id="ins"></p>
+          </div>
+          
+        </div>
+        <div class="buttons-wrapper" style="display: flex; align-items: center;">
+          <label for="inputnum">Enter bucket number (0-9):</label>
+          <input class="text-box" type="number" id="inputnum" value="5" min="0" max="9" style="height: 30px; padding: 5px; border: 1px solid #ccc; border-radius: 4px; margin-right: 10px;">
+          <button type="button" class="button-input" id="step" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;">Step</button>&nbsp;
+          <button type="button" class="button-input" id="reset" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s;">Reset</button>
+      </div>
+        
+    </div>
+    <script src="js/radix_lib.js"></script>
+    <script src="js/radix_exercise.js"></script>
+<script src="../../assets/js/instruction-box.js"></script>
+  </body>
+</html>
